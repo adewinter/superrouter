@@ -6,10 +6,9 @@ This is the django code for the super router frontend.
 
 SETUP
 =====
-Super standard::
+Super standard. Create a virtualenv (optional) then run::
 
- Create a virtualenv (optional)
- run pip install -r pip-requires.txt   (assuming you're currently in the root folder of this repo)
+ pip install -r pip-requires.txt   (assuming you're currently in the root folder of this repo)
  cd srweb
  cp localsettings.py.example localsettings.py
  nano localsettings.py
