@@ -1,4 +1,4 @@
 .idea/*
 *.pyc
-localsettings.py.example
+localsettings.py
 *.sqlite3
