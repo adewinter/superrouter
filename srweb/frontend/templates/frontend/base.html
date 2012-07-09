@@ -1,7 +1,6 @@
 {% load staticfiles %}
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML>
 <html>
 <head>
 {% block head %}
@@ -34,10 +33,11 @@
 
             <ul class="nav">
                 <li class="active">
-                    <a href="#">Home</a>
+                    <a href="#">Connectivity</a>
                 </li>
                 <li><a href="#">Settings</a></li>
-                <li><a href="#">Status</a></li>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Advanced Settings</a></li>
             </ul>
             <ul class="nav pull-right">
                 <li class="pull-right"><a href="#">Logout</a></li>
@@ -47,7 +47,7 @@
 </div>
 {% endblock %}
 
-<div id="content" class="well">
+<div id="content">
 {% block content %}
 Some content
 {% endblock %}
